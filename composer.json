@@ -1,0 +1,13 @@
+{
+    "require": {
+        "doctrine/orm": "*",
+        "doctrine/dbal": "^3.2",
+        "symfony/cache": "^5.4",
+        "symfony/yaml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "LearnDoctrine\\": "src/"
+        }
+    }
+}
