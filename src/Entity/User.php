@@ -26,7 +26,7 @@ class User
 
     public function setPassword(string $password):void
     {
-        $this->name = password_hash($password, PASSWORD_DEFAULT);
+        $this->password = password_hash($password, PASSWORD_DEFAULT);
     }
 
     public function getName():string
